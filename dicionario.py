@@ -33,7 +33,9 @@ print(f"Tamanho do dicionário de estados de máquinas: {len(estados_de_maquinas
 # Listando todas as máquinas cadastradas no dicionário
 print(f"Lista de todas as máquinas cadastradas: {list(estados_de_maquinas.keys())}")
 
+# Listando todos os estados de máquinas cadastradas e suas ações
 print(f"\nComando para as máquinas: {estados_de_maquinas}")
 
+# Acessando o primeiro comando da máquina 1 e removendo-o da lista de comandos
 print(f"Primeiro comando para a máquina 1: {estados_de_maquinas['maquina1'].pop(0)}")
 print(f"Segundo comando para a máquina 1 : {estados_de_maquinas['maquina1']}")
