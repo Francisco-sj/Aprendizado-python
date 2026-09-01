@@ -1,5 +1,5 @@
 print("temperatura: ")
-temperatura = 30 # Entrada de dados do usuário
+temperatura = 30 
 
 # Condição compostas
 if temperatura > 25:
