@@ -1,5 +1,5 @@
 print("temperatura: ")
-temperatura = float(input())
+temperatura = float(input()) # Entrada de dados do usuário
 
 # Condição compostas
 if temperatura > 25:
