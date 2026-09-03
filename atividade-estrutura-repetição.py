@@ -13,3 +13,13 @@ while True:
     # Incrementa a energia atual em 10 a cada iteração
     energia_atual += 10
     time.sleep(2) # Simula o tempo de carregamento
+
+# Usando FOR novamente 
+for ciclo in range(1, 6):
+    consumo = 50 + (ciclo * 4)
+    print(f"Ciclo {ciclo} - Consumo de energia atual: {consumo} Kw")
+
+# FOR percorrendo listas 
+leituras = [50, 60, 70, 80, 90, 100]
+for leitura in leituras:
+    print(f"Leitura de energia: {leitura} Kw")
