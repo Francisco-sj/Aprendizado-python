@@ -23,3 +23,17 @@ for ciclo in range(1, 6):
 leituras = [50, 60, 70, 80, 90, 100]
 for leitura in leituras:
     print(f"Leitura de energia: {leitura} Kw")
+
+
+#For percorrendo dicionários
+Setores_consumo = {
+    "Refrigeração": 50,
+    "Iluminação": 40, 
+    "Computadores": 100,
+}
+
+for setor, consumo in Setores_consumo.items():
+    if consumo > 80:
+        print(f"O setor {setor} está consumindo muita energia: {consumo} Kw")
+    else:
+        print(f"O setor {setor} está consumindo energia dentro do esperado: {consumo} Kw")
